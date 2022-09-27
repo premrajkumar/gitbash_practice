@@ -20,7 +20,7 @@ public class Base_Test implements Framework_constants{
 	@AfterMethod
 	public void closeappln()
 	{
-		driver.quit(); // to close browser
+		driver.quit();
 	}
 
 }
