@@ -16,7 +16,7 @@ public class Generic_Excel {
 	    Workbook book = WorkbookFactory.create(fis);
 	    Cell c = book.getSheet(sheet).getRow(row).getCell(cell);
 	    val=c.getStringCellValue();
-	    return val; // to return data to script
+	    return val; // changes done 
 	}
 
 }
